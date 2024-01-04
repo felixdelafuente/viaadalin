@@ -2,7 +2,7 @@ export const BackgroundSection = () => {
   return (
     <section className='relative w-full px-4 md:px-16 lg:px-32 pt-4 md:pt-16 lg:pt-32 flex flex-col items-center overflow-hidden'>
       <img
-        src='src/assets/images/up-stripes.png'
+        src='public/images/up-stripes.png'
         alt=''
         className='z-20 hidden xl:block absolute right-0 -top-48 transform -rotate-45'
       />
@@ -12,7 +12,7 @@ export const BackgroundSection = () => {
       <div className='w-full mt-24 flex flex-col md:flex-row md:justify-center gap-8'>
         <div className='w-full md:w-1/2 lg:w-1/4 flex flex-col items-center'>
           <img
-            src='src/assets/images/rot-1.png'
+            src='public/images/rot-1.png'
             alt='First Rotation'
             className='mb-4'
           />
@@ -25,7 +25,7 @@ export const BackgroundSection = () => {
         </div>
         <div className='w-full md:w-1/2 lg:w-1/4 flex flex-col items-center'>
           <img
-            src='src/assets/images/rot-2.png'
+            src='public/images/rot-2.png'
             alt='Second Rotation'
             className='mb-4'
           />
@@ -38,7 +38,7 @@ export const BackgroundSection = () => {
         </div>
         <div className='w-full md:w-1/2 lg:w-1/4 flex flex-col items-center'>
           <img
-            src='src/assets/images/rot-0.png'
+            src='public/images/rot-0.png'
             alt='Coming Soon'
             className='mb-4'
           />
@@ -51,7 +51,7 @@ export const BackgroundSection = () => {
         </div>
         <div className='w-full md:w-1/2 lg:w-1/4 flex flex-col items-center'>
           <img
-            src='src/assets/images/rot-0.png'
+            src='public/images/rot-0.png'
             alt='Coming Soon'
             className='mb-4'
           />

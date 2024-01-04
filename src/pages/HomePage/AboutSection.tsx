@@ -26,11 +26,11 @@ export const AboutSection = () => {
       </div>
       <div className='w-full lg:w-1/3 flex justify-center lg:justify-end'>
         <img
-          src='src/assets/images/about-img.png'
+          src='public/images/about-img.png'
           alt='Via Adalin'
           className='w-96 md:w-1/2 lg:w-auto drop-shadow-lg hover:-translate-y-1'
         />
       </div>
     </section>
   );
-}
+};
