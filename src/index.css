@@ -1,0 +1,59 @@
+/* Tailwind import */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Open Sans font family */
+  @font-face {
+    font-family: "OpenSans";
+    font-weight: normal;
+    font-style: normal;
+    src: url("./assets/fonts/OpenSans-VariableFont_wdth,wght.ttf")
+      format("truetype");
+  }
+
+  @font-face {
+    font-family: "OpenSansItalic";
+    font-weight: normal;
+    font-style: italic;
+    src: url("./assets/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf")
+      format("truetype");
+  }
+
+  /* Recolata Alt font family */
+  @font-face {
+    font-family: "RecoletaAlt";
+    font-weight: normal;
+    font-style: normal;
+    src: url("./assets/fonts/RecoletaAlt-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "RecoletaAltMedium";
+    font-weight: 400;
+    font-style: normal;
+    src: url("./assets/fonts/RecoletaAlt-Medium.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "RecoletaAltBold";
+    font-weight: normal;
+    font-style: normal;
+    src: url("./assets/fonts/RecoletaAlt-Bold.ttf") format("truetype");
+  }
+
+  /* Caveat font family */
+  @font-face {
+    font-family: "Caveat";
+    font-weight: normal;
+    font-style: normal;
+    src: url("./assets/fonts/Caveat-VariableFont_wght.ttf") format("truetype");
+  }
+}
+
+/* Implemented across the website */
+body {
+  background-color: #f4f1e8;
+  overflow-x: hidden;
+}
