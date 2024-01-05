@@ -9,4 +9,5 @@ export interface Post {
   excerpt: {
     rendered: string;
   };
+  jetpack_featured_media_url: string
 }

@@ -20,7 +20,7 @@ export const Navbar = () => {
               <Link to='/'>Home</Link>
             </li>
             <li className='text-black hover:text-upMaroon font-normal hover:font-bold text-sm'>
-              <Link to='/blogs'>Blogs</Link>
+              <Link to='/blogs'>Blog</Link>
             </li>
             <li>
               <a
@@ -67,7 +67,7 @@ export const Navbar = () => {
                 <Link to='/'>Home</Link>
               </li>
               <li className='text-black hover:text-upMaroon font-normal hover:font-bold'>
-                <Link to='/blogs'>Blogs</Link>
+                <Link to='/blogs'>Blog</Link>
               </li>
             </ul>
           </nav>

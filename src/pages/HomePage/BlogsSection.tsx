@@ -27,11 +27,18 @@ export const BlogsSection = () => {
       <h1 className='font-recoletaBl text-5xl text-center text-black mt-12'>
         My Blog Posts
       </h1>
-      <div className='w-full mt-24 mb-12 flex flex-col md:flex-row md:justify-center gap-8'>
-        {posts.slice(0, 4).map((item) => (
-          <BlogCard post={item} />
-        ))}
-      </div>
+      {posts.length != 0 ? (
+        <div className='w-full mt-24 mb-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
+          {posts.slice(0, 4).map((item) => (
+            <BlogCard post={item} />
+          ))}
+        </div>
+      ) : (
+        <div className='w-full mt-12 mb-12 flex justify-center'>
+          <h4 className='text-center font-recoletaBl text-gray text-base'>I'll be releasing content soon!</h4>
+        </div>
+      )}
+
       <div className='flex justify-center'>
         <a href='/blogs'>
           <button className='w-auto h-auto px-6 py-2 border-2 border-upMaroon rounded-full font-openSans font-bold text-sm text-upMaroon hover:bg-upMaroon hover:text-background'>

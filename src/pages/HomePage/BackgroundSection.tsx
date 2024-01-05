@@ -9,41 +9,42 @@ export const BackgroundSection = () => {
       <h1 className='font-recoletaBl text-5xl text-black mt-12'>
         My Background
       </h1>
-      <div className='w-full mt-24 flex flex-col md:flex-row md:justify-center gap-8'>
-        <div className='w-full md:w-1/2 lg:w-1/4 flex flex-col items-center'>
+      <div className='w-full mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
+        <div className='w-full flex flex-col items-center'>
           <img src='/images/rot-1.png' alt='First Rotation' className='mb-4' />
           <h4 className='text-2xl text-center font-recoletaBl'>
-            Lorem Ipsum School
+            Clinic for Therapy Services
           </h4>
           <p className='text-sm text-center font-openSans'>
-            Lorem ipsum dolor sit amet consectetur
+            The pediatric section of the UPM CAMP in-house outpatient clinic
           </p>
         </div>
-        <div className='w-full md:w-1/2 lg:w-1/4 flex flex-col items-center'>
+        <div className='w-full flex flex-col items-center'>
           <img src='/images/rot-2.png' alt='Second Rotation' className='mb-4' />
           <h4 className='text-2xl text-center font-recoletaBl'>
-            Lorem Ipsum School
+            Clinic for Therapy Services
           </h4>
           <p className='text-sm text-center font-openSans'>
-            Lorem ipsum dolor sit amet consectetur
+            The adolescent and adults section of the UPM CAMP in-house
+            outpatient clinic
           </p>
         </div>
-        <div className='w-full md:w-1/2 lg:w-1/4 flex flex-col items-center'>
+        <div className='w-full flex flex-col items-center'>
           <img src='/images/rot-0.png' alt='Coming Soon' className='mb-4' />
           <h4 className='text-2xl text-center font-recoletaBl'>
-            Lorem Ipsum School
+            Third Rotation Coming Soon!
           </h4>
           <p className='text-sm text-center font-openSans'>
-            Lorem ipsum dolor sit amet consectetur
+            {/* Insert third rotation update here */}
           </p>
         </div>
-        <div className='w-full md:w-1/2 lg:w-1/4 flex flex-col items-center'>
+        <div className='w-full flex flex-col items-center'>
           <img src='/images/rot-0.png' alt='Coming Soon' className='mb-4' />
           <h4 className='text-2xl text-center font-recoletaBl'>
-            Lorem Ipsum School
+            Fourth Rotation Coming Soon!
           </h4>
           <p className='text-sm text-center font-openSans'>
-            Lorem ipsum dolor sit amet consectetur
+            {/* Insert fourth rotation update here */}
           </p>
         </div>
       </div>

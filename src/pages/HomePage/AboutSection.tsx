@@ -1,6 +1,6 @@
 export const AboutSection = () => {
   return (
-    <section className='z-30 relative px-4 md:px-16 lg:px-32 py-16 lg:py-32 bg-upMaroon w-full flex lg:gap-36 flex-col-reverse lg:flex-row'>
+    <section className='z-30 relative px-4 md:px-16 lg:px-32 py-16 lg:py-32 bg-upMaroon w-full flex lg:gap-24 xl:gap-36 flex-col-reverse lg:flex-row'>
       <div className='w-full lg:w-2/3'>
         <h1 className='font-recoletaBl text-5xl text-background mt-12'>
           About Me
@@ -24,11 +24,11 @@ export const AboutSection = () => {
           self-discovery!
         </p>
       </div>
-      <div className='w-full lg:w-1/3 flex justify-center lg:justify-end'>
+      <div className='w-full h-auto lg:w-1/3 flex justify-center lg:justify-end'>
         <img
           src='/images/about-img.png'
           alt='Via Adalin'
-          className='w-96 md:w-1/2 lg:w-auto drop-shadow-lg hover:-translate-y-1'
+          className='w-96 md:w-1/2 lg:w-auto h-auto drop-shadow-lg hover:-translate-y-1 self-center'
         />
       </div>
     </section>

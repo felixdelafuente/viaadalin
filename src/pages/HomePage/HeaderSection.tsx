@@ -41,7 +41,18 @@ export const HeaderSection = () => {
         alt='Via Adalin'
         className='z-20 -mb-28 mr-4 w-auto h-3/4 lg:h-5/6'
       />
-      <h2 className='z-20 hidden md:block absolute md:bottom-80 md:right-10 md:text-lg lg:right-80 xl:right-96 lg:text-xl text-center font-caveat leading-tight transform rotate-12'>
+      <div className='w-full h-screen z-30 absolute flex items-center justify-center'>
+        <h2 className='ml-72 md:ml-96 md:pl-20 mt-20 md:mt-0 text-sm md:text-base lg:text-xl text-center font-caveat leading-tight transform rotate-12'>
+          I am a Speech-Language Pathology Intern
+          <br />
+          at the University of the Philippines Manila
+          <br />
+          and I'll be sharing my college
+          <br />
+          and internship journey here!
+        </h2>
+      </div>
+      {/* <h2 className='z-20 hidden md:block absolute md:bottom-40 xl:bottom-80 md:right-16 lg:right-48 xl:right-96 md:text-lg  lg:text-xl text-center font-caveat leading-tight transform rotate-12'>
         I am a Speech-Language Pathology Intern
         <br />
         at the University of the Philippines Manila
@@ -49,7 +60,7 @@ export const HeaderSection = () => {
         and I'll be sharing my college
         <br />
         and internship journey here!
-      </h2>
+      </h2> */}
     </section>
   );
 };
